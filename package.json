@@ -1,0 +1,35 @@
+{
+  "name": "namesthi_react",
+  "version": "1.0.0",
+  "description": "1. Emmet is a build in feature of VSCode, its doesnt require any additional installation.\r 2. By using shortcuts emmit improves the speed if HTML and CSS workflow, without manually typing full code.\r 3. Examples : li*2, div.group$*5, nav>ul>li.\r Rference link (https://blog.logrocket.com/type-html-faster-react-emmet-vs-code/)",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinaykumarseelam/Namesthi_React.git"
+  },
+  "author": "Vinay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinaykumarseelam/Namesthi_React/issues"
+  },
+  "homepage": "https://github.com/vinaykumarseelam/Namesthi_React#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "reactdom": "^2.0.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
